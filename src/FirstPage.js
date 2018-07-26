@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
+import './App.css';
 
 class FirstPage extends Component {
   render() {
     return (
       <div>
         <header>
-          <h3>Hello World</h3>
+          <h1 className="App">Hello World</h1>
+          
         </header>
       </div>
     );
